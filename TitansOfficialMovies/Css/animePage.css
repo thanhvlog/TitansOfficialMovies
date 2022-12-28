@@ -1,0 +1,251 @@
+.fa-spinner {
+    color: #ffff;
+}
+
+.wrapperVideo{
+    width: 100%;
+    height: 480px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.video{
+    height:100%;
+    width: 100%;
+}
+
+#container{
+    padding: 30px 15px;
+}
+
+.post.post-row .post-meta {
+    margin-top: 15px;
+}
+
+.post-meta .post-category {
+    margin-right: 0px;
+    display: inline-block;
+    margin-top: 5px;
+    background-color: #5bc0de !important;
+    text-transform: capitalize;
+}
+
+.page-header i p{
+    margin: 0px 0px 0px;
+}
+
+.page-header .note{
+    margin-top: 20px;
+}
+
+.list-anime-link{
+    font-size: 18px;
+    color: #337AB8;
+}
+
+.post.post-row .post-img > img {
+    height: 100%;
+    max-height: none;
+}
+
+.anime.anime-row{
+    width: 100%;
+    min-height: 75px;
+}
+
+.anime.anime-row .anime-img > img {
+    width: 100px;
+}
+
+.anime .anime-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.bgAnimeSelected{
+    background-color: lemonchiffon;
+}
+
+.anime-name{
+    font-size: 22px;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.vidyard-player-container > div{
+    padding-bottom: 64.25% !important;
+}
+
+.icon-loading{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    display: block !important;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i {transform : scale(3,6); color: #ccc;}
+
+.owl-carousel .owl-item {
+    padding: 0px 30px;
+}
+
+.vjs-text-track-display, .vjs-big-play-button, .vjs-control-bar{
+    pointer-events: visible;
+}
+
+.highlightText{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* Desktop */
+@media screen and (min-aspect-ratio: 1/1){
+    .post.post-row {
+        margin-bottom: 0px;
+    }
+    .post.post-row .post-img {
+        width: 20%;
+        float: left;
+    }
+    /* .post.post-row .post-img > img {
+        max-height: 150px;
+    } */
+    .post.post-row .post-body {
+        margin-left: calc(19% + 30px);
+    }
+
+    .anime.anime-row .anime-img {
+        width: 17%;
+        float: left;
+    }
+
+    .anime.anime-row .anime-body {
+        margin-left: 120px;
+    }
+
+    .boxAnime{
+        max-height: 480px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+    }
+
+    .flexboxAnime{
+        display: flex;
+        padding: 10px;
+    }
+
+    .fbAction{
+        margin-top: 15px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-aspect-ratio: 1/1) {
+    .subAnime-name{
+        margin-top: 10px;
+    }
+
+    .anime.anime-row .anime-img {
+        width: 35%;
+        float: left;
+        height: 105%;
+    }
+
+    .anime.anime-row .anime-img > img {
+        width: 80%;
+    }
+
+    .flexboxAnime{
+        display: flex;
+        padding: 10px;
+    }
+
+    .boxAnime{
+        border: 1px solid #ccc;
+        max-height: 480px;
+        overflow-y: auto;
+    }
+
+    .fbAction{
+        margin-top: 15px;
+    }
+    
+    .wrapperVideoVidYard{
+        height: 100%;
+    }
+
+    .icon-loading{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 27%;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 400px) {
+    .owl-carousel .owl-item {
+        padding: 0px 50px;
+    }
+}
+
+@media all and (min-width: 401px) and (max-width: 499px) {
+    .anime.anime-row .anime-img > img {
+        width: 100px;
+    }
+    .owl-carousel .owl-item {
+        padding: 0px 100px;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 600px) {
+    .anime.anime-row .anime-img > img {
+        width: 100px;
+    }
+    .owl-carousel .owl-item {
+        padding: 0px 100px;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 700px) {
+    .anime.anime-row .anime-img > img {
+        width: 100px;
+    }
+    .owl-carousel .owl-item {
+        padding: 0px 30px;
+    }
+}
+
+@media all and (min-width: 757px) and (max-width: 991px) {
+    .post.post-row .post-img {
+        width: 25%;
+        float: left;
+    }
+
+    .post.post-row .post-body {
+        margin-left: calc(25% + 30px);
+    }
+}
